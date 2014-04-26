@@ -12,3 +12,6 @@ Files description:
 
 
 
+*Note that a file will still need to be added to ~.mozilla/extensions/ named as the ID in email format and containing the full path to the firefox extension directory, is using these files for development. 
+
+
