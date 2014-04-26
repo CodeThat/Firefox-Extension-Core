@@ -1,7 +1,7 @@
 Firefox-Extension-Core
 ======================
 
-Files to create a firefox extension quickly
+Files to create a firefox extension framework quickly
 
 Files description:
 
@@ -10,8 +10,6 @@ Files description:
 - chrome.manifest (specifies material in chrome package, name of chrome package, and location of chrome package files) 
 - core.xpi (zipped up core files, can install naturally to Firefox)
 
-
-
-*Note that a file will still need to be added to ~.mozilla/extensions/ named as the ID in email format and containing the full path to the firefox extension directory, is using these files for development. 
+*During extension development a text file will still need to be added to ~.mozilla/extensions/ named as the ID in email format and containing the full path to the firefox extension directory. Otherwise Firefox will not know the extension exist. You can also just install the core.xpi.
 
 
